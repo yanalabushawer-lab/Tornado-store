@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tornado Sports Store</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#2a5298">
+<style>
+body{
+  margin:0;
+  font-family: Arial, sans-serif;
+  background:#f0f4f8;
+}
+header{
+  background:#2a5298;
+  color:white;
+  padding:20px;
+  text-align:center;
+}
+header h1{
+  margin:0;
+}
+nav{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  background:#1e3c72;
+  padding:10px 0;
+}
+nav a{
+  color:white;
+  text-decoration:none;
+  font-weight:bold;
+}
+section{
+  max-width:1200px;
+  margin:30px auto;
+  padding:0 15px;
+}
+.products{
+  display:flex;
+  flex-wrap:wrap;
+  gap:20px;
+  justify-content:center;
+}
+.card{
+  background:white;
+  border-radius:15px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.1);
+  width:200px;
+  text-align:center;
+  padding:15px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover{
+  transform: translateY(-5px);
+  box-shadow:0 10px 20px rgba(0,0,0,0.2);
+}
+.card img{
+  width:100%;
+  border-radius:10px;
+}
+.card h3{
+  color:#2a5298;
+  margin:10px 0 5px 0;
+}
+.card p{
+  margin:5px 0;
+  font-weight:bold;
+}
+.card button{
+  background:#2a5298;
+  color:white;
+  border:none;
+  padding:10px 15px;
+  border-radius:8px;
+  cursor:pointer;
+  transition:0.3s;
+}
+.card button:hover{
+  background:#1e3c72;
+}
+footer{
+  background:#2a5298;
+  color:white;
+  text-align:center;
+  padding:20px;
+  margin-top:30px;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Tornado Sports Store</h1>
+</header>
+
+<nav>
+  <a href="#premier">الدوري الإنجليزي</a>
+  <a href="#laliga">الدوري الإسباني</a>
+  <a href="#seriea">الدوري الإيطالي</a>
+  <a href="#bundesliga">الدوري الألماني</a>
+  <a href="#ligue1">الدوري الفرنسي</a>
+  <a href="#contact">تواصل معنا</a>
+</nav>
+
+<!-- Premier League -->
+<section id="premier">
+<h2 style="text-align:center; color:#2a5298;">الدوري الإنجليزي</h2>
+<div class="products">
+  <div class="card">
+    <img src="https://via.placeholder.com/200x200.png?text=Man+Utd" alt="Manchester United">
+    <h3>مانشستر يونايتد</h3>
+    <p>8.5$ مع شورت / 7.5$ بدون شورت</p>
+    <button onclick="window.open('https://instagram.com/tornado_shop','_blank')">أرسل إلى Instagram</button>
+  </div>
+  <div class="card">
+    <img src="https://via.placeholder.com/200x200.png?text=Liverpool" alt="Liverpool">
+    <h3>ليفربول</h3>
+    <p>8.5$ مع شورت / 7.5$ بدون شورت</p>
+    <button onclick="window.open('https://instagram.com/tornado_shop','_blank')">أرسل إلى Instagram</button>
+  </div>
+  <div class="card">
+    <img src="https://via.placeholder.com/200x200.png?text=Chelsea" alt="Chelsea">
+    <h3>تشيلسي</h3>
+    <p>8.5$ مع شورت / 7.5$ بدون شورت</p>
+    <button onclick="window.open('https://instagram.com/tornado_shop','_blank')">أرسل إلى Instagram</button>
+  </div>
+  <div class="card">
+    <img src="https://via.placeholder.com/200x200.png?text=Arsenal" alt="Arsenal">
+    <h3>أرسنال</h3>
+    <p>8.5$ مع شورت / 7.5$ بدون شورت</p>
+    <button onclick="window.open('https://instagram.com/tornado_shop','_blank')">أرسل إلى Instagram</button>
+  </div>
+  <div class="card">
+    <img src="https://via.placeholder.com/200x200.png?text=Man+City" alt="Manchester City">
+    <h3>مانشستر سيتي</h3>
+    <p>8.5$ مع شورت / 7.5$ بدون شورت</p>
+    <button onclick="window.open('https://instagram.com/tornado_shop','_blank')">أرسل إلى Instagram</button>
+  </div>
+</div>
+</section>
+
+<!-- La Liga -->
+<section id="laliga">
+<h2 style="text-align:center; color:#2a5298;">الدوري الإسباني</h2>
+<div class="products">
+  <div class="card">
+    <img src="https://via.placeholder.com/200x200.png?text=Barcelona" alt="Barcelona">
+    <h3>برشلونة</h3>
+    <p>8.5$ مع شورت / 7.5$ بدون شورت</p>
+    <button onclick="window.open('https://instagram.com/tornado_shop','_blank')">أرسل إلى Instagram</button>
+  </div>
+  <div class="card">
+    <img src="https://via.placeholder.com/200x200.png?text=Real+Madrid" alt="Real Madrid">
+    <h3>ريال مدريد</h3>
+    <p>8.5$ مع شورت / 7.5$ بدون شورت</p>
+    <button onclick="window.open('https://instagram.com/tornado_shop','_blank')">أرسل إلى Instagram</button>
+  </div>
+</div>
+</section>
+
+<!-- Serie A -->
+<section id="seriea">
+<h2 style="text-align:center; color:#2a5298;">الدوري الإيطالي</h2>
+<div class="products">
+  <div class="card">
+    <img src="https://via.placeholder.com/200x200.png?text=Juventus" alt="Juventus">
+    <h3>يوفنتوس</h3>
+    <p>8.5$ مع شورت / 7.5$ بدون شورت</p>
+    <button onclick="window.open('https://instagram.com/tornado_shop','_blank')">أرسل إلى Instagram</button>
+  </div>
+  <div class="card">
+    <img src="https://via.placeholder.com/200x200.png?text=Milan" alt="AC Milan">
+    <h3>ميلان</h3>
+    <p>8.5$ مع شورت / 7.5$ بدون شورت</p>
+    <button onclick="window.open('https://instagram.com/tornado_shop','_blank')">أرسل إلى Instagram</button>
+  </div>
+</div>
+</section>
+
+<!-- Bundesliga -->
+<section id="bundesliga">
+<h2 style="text-align:center; color:#2a5298;">الدوري الألماني</h2>
+<div class="products">
+  <div class="card">
+    <img src="https://via.placeholder.com/200x200.png?text=Bayern+Munich" alt="Bayern Munich">
+    <h3>بايرن ميونخ</h3>
+    <p>8.5$ مع شورت / 7.5$ بدون شورت</p>
+    <button onclick="window.open('https://instagram.com/tornado_shop','_blank')">أرسل إلى Instagram</button>
+  </div>
+  <div class="card">
+    <img src="https://via.placeholder.com/200x200.png?text=Dortmund" alt="Borussia Dortmund">
+    <h3>بوروسيا دورتموند</h3>
+    <p>8.5$ مع شورت / 7.5$ بدون شورت</p>
+    <button onclick="window.open('https://instagram.com/tornado_shop','_blank')">أرسل إلى Instagram</button>
+  </div>
+  <div class="card">
+    <img src="https://via.placeholder.com/200x200.png?text=Leipzig" alt="Leipzig">
+    <h3>لايبزيغ</h3>
+    <p>8.5$ مع شورت / 7.5$ بدون شورت</p>
+    <button onclick="window.open('https://instagram.com/tornado_shop','_blank')">أرسل إلى Instagram</button>
+  </div>
+</div>
+</section>
+
+<!-- Ligue 1 -->
+<section id="ligue1">
+<h2 style="text-align:center; color:#2a5298;">الدوري الفرنسي</h2>
+<div class="products">
+  <div class="card">
+    <img src="https://via.placeholder.com/200x200.png?text=PSG" alt="PSG">
+    <h3>باريس سان جيرمان</h3>
+    <p>8.5$ مع شورت / 7.5$ بدون شورت</p>
+    <button onclick="window.open('https://instagram.com/tornado_shop','_blank')">أرسل إلى Instagram</button>
+  </div>
+  <div class="card">
+    <img src="https://via.placeholder.com/200x200.png?text=Marseille" alt="Marseille">
+    <h3>مارسيليا</h3>
+    <p>8.5$ مع شورت / 7.5$ بدون شورت</p>
+    <button onclick="window.open('https://instagram.com/tornado_shop','_blank')">أرسل إلى Instagram</button>
+  </div>
+  <div class="card">
+    <img src="https://via.placeholder.com/200x200.png?text=Lyon" alt="Lyon">
+    <h3>ليون</h3>
+    <p>8.5$ مع شورت / 7.5$ بدون شورت</p>
+    <button onclick="window.open('https://instagram.com/tornado_shop','_blank')">أرسل إلى Instagram</button>
+  </div>
+</div>
+</section>
+
+<section id="contact">
+<h2 style="text-align:center; color:#2a5298;">تواصل معنا</h2>
+<p style="text-align:center;">المدينة: عمان ‑ الأردن</p>
+<p style="text-align:center;">Instagram: <a href="https://instagram.com/tornado_shop" target="_blank">@tornado_shop</a></p>
+</section>
+
+<footer>
+&copy; 2026 Tornado Sports Store - All rights reserved
+</footer>
+
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('service-worker.js')
+  .then(()=>console.log('Service Worker Registered'));
+}
+</script>
+
+</body>
+</html>
