@@ -1,0 +1,20 @@
+{
+  "name": "Tornado Sports Store",
+  "short_name": "Tornado",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2a5298",
+  "icons": [
+    {
+      "src": "https://via.placeholder.com/192.png?text=Tornado",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://via.placeholder.com/512.png?text=Tornado",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
